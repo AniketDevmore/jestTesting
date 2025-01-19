@@ -7,6 +7,7 @@ import AccessibleName from './AccessibleName/AccessibleName';
 import MoreNames from './MoreNames/MoreNames';
 import IconButtons from './IconButtons/IconButtons';
 import DataForm from './DataForm/DataForm';
+import Matchers from './Matchers/Matchers';
 
 function App() {
   const [userList, setUserList] = useState([]);
@@ -25,7 +26,8 @@ function App() {
       {/* <AccessibleName/> */}
       {/* <MoreNames/> */}
       {/* <IconButtons/> */}
-      <DataForm/>
+      {/* <DataForm/> */}
+      <Matchers/>
     </div>
   );
 }
