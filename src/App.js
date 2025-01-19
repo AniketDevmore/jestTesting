@@ -6,6 +6,7 @@ import OtherTag from './OtherTag/OtherTag';
 import AccessibleName from './AccessibleName/AccessibleName';
 import MoreNames from './MoreNames/MoreNames';
 import IconButtons from './IconButtons/IconButtons';
+import DataForm from './DataForm/DataForm';
 
 function App() {
   const [userList, setUserList] = useState([]);
@@ -23,7 +24,8 @@ function App() {
       <OtherTag/> */}
       {/* <AccessibleName/> */}
       {/* <MoreNames/> */}
-      <IconButtons/>
+      {/* <IconButtons/> */}
+      <DataForm/>
     </div>
   );
 }
